@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.simplejavamail</groupId>
-    <artifactId>simple-java-mail</artifactId>
+    <artifactId>simple-java-mail-android</artifactId>
     <packaging>jar</packaging>
     <name>Simple Java Mail</name>
     <version>4.1.2</version>
@@ -68,18 +68,12 @@
             <version>2.6.1</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.6.1</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- core dependencies -->
         <dependency>
             <groupId>com.sun.mail</groupId>
-            <artifactId>javax.mail</artifactId>
-            <version>1.5.5</version>
+            <artifactId>android-mail</artifactId>
+            <version>1.5.6</version>
         </dependency>
         <dependency>
             <groupId>com.github.bbottema</groupId>
